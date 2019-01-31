@@ -14,3 +14,13 @@
 
 Try out interactive controls in Jupyter:
 https://towardsdatascience.com/interactive-controls-for-jupyter-notebooks-f5c94829aee6
+
+Below are some commands to clone a github repository & create a new environment in anaconda
+
+$ cd $HOME  # or any other development directory you prefer
+$ git clone https://github.com/ageron/handson-ml.git
+$ cd handson-ml
+$ conda create -n mlbook python=3.5 anaconda
+$ source activate mlbook
+$ conda install -n mlbook -c conda-forge tensorflow
+$ conda install -n mlbook -c conda-forge jupyter_contrib_nbextensions
