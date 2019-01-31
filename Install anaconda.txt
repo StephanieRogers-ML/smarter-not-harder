@@ -1,0 +1,16 @@
+1. Install of Anaconda 5.2.0 version by Admin
+2. Run Anaconda prompt by Admin(When you run you can see the "(base)")
+3. conda update -n base conda : this is for update
+4. conda update --all : this is for update
+5. pip install tensorflow
+6. pip install keras
+7. pip install ipywidget
+8. pip install --upgrade autopep8
+9. pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install 
+10. jupyter nbextension enable --py widgetsnbextension
+10. conda install -c plotly plotly
+11. pip install cufflinks
+12. pip install pyarrow
+
+Try out interactive controls in Jupyter:
+https://towardsdatascience.com/interactive-controls-for-jupyter-notebooks-f5c94829aee6
