@@ -4,7 +4,7 @@
 4. conda update --all : this is for update
 5. pip install tensorflow
 6. pip install keras
-7. pip install ipywidget
+7. pip install ipywidgets
 8. pip install --upgrade autopep8
 9. pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install 
 10. jupyter nbextension enable --py widgetsnbextension
@@ -15,7 +15,6 @@
 Try out interactive controls in Jupyter:
 https://towardsdatascience.com/interactive-controls-for-jupyter-notebooks-f5c94829aee6
 
-To do:[Currently I cannot get ipywidget to work in my computer vision environment.] 
 
 Below are the steps to create new environment in Anaconda
 ### Basics of Anaconda environment management ###
@@ -44,5 +43,9 @@ python ##creates a python shell within your CV environment
 >>>cv2.__version__
 '3.1.0'
 https://chrisconlan.com/installing-python-opencv-3-windows/
-pip install Cython
 
+## additional things I had to do on the fly##
+pip install Cython
+pip install image
+
+### From Anaconda prompt type “jupyter notebook” 
