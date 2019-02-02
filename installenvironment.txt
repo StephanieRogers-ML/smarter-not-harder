@@ -16,15 +16,31 @@ Try out interactive controls in Jupyter:
 https://towardsdatascience.com/interactive-controls-for-jupyter-notebooks-f5c94829aee6
 
 Below are some commands to clone a github repository & create a new environment in anaconda
+conda --version
+### Basics of Anaconda environment management ###
+# Creating an environment
+conda create --name myNewEnv python=x.x.x
+# Activating an environment
+activate myNewEnv
+# Deactivating an environment
+deactivate myNewEnv
+# Listing environments
+conda info --envs
+# Removing an environment
+conda remove --name myNewEnv --all
 
-$ cd $HOME  # or any other development directory you prefer
-$ git clone https://github.com/ageron/handson-ml.git
-$ cd handson-ml
-$ conda create -n mlbook python=3.5 anaconda
-$ source activate mlbook
-$ conda install -n mlbook -c conda-forge tensorflow
-$ conda install -n mlbook -c conda-forge jupyter_contrib_nbextensions
+conda create --name myWindowsCV python=3.5
+activate myWindowsCV
+conda install numpy
+conda install anaconda-client
+conda install --channel https://conda.anaconda.org/menpo opencv3
+conda install matplotlib
 
+from python
+>>>import cv2
+>>>cv2.__version__
+'3.1.0'
 https://chrisconlan.com/installing-python-opencv-3-windows/
+Now install the packages from above, you may need to install cython.
 pip install Cython
 
