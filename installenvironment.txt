@@ -26,5 +26,5 @@ $ conda install -n mlbook -c conda-forge tensorflow
 $ conda install -n mlbook -c conda-forge jupyter_contrib_nbextensions
 
 https://chrisconlan.com/installing-python-opencv-3-windows/
-Did the steps from this website with only difference of running python 2.7.15
+pip install Cython
 
