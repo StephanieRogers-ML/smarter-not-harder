@@ -15,9 +15,11 @@
 Try out interactive controls in Jupyter:
 https://towardsdatascience.com/interactive-controls-for-jupyter-notebooks-f5c94829aee6
 
-Below are some commands to clone a github repository & create a new environment in anaconda
-conda --version
+To do:[Currently I cannot get ipywidget to work in my computer vision environment.] 
+
+Below are the steps to create new environment in Anaconda
 ### Basics of Anaconda environment management ###
+conda --version
 # Creating an environment
 conda create --name myNewEnv python=x.x.x
 # Activating an environment
@@ -29,6 +31,7 @@ conda info --envs
 # Removing an environment
 conda remove --name myNewEnv --all
 
+### Code for Computer Vision Environment ###
 conda create --name myWindowsCV python=3.5
 activate myWindowsCV
 conda install numpy
@@ -36,11 +39,10 @@ conda install anaconda-client
 conda install --channel https://conda.anaconda.org/menpo opencv3
 conda install matplotlib
 
-from python
+python ##creates a python shell within your CV environment
 >>>import cv2
 >>>cv2.__version__
 '3.1.0'
 https://chrisconlan.com/installing-python-opencv-3-windows/
-Now install the packages from above, you may need to install cython.
 pip install Cython
 
