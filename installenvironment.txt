@@ -15,7 +15,7 @@
 Try out interactive controls in Jupyter:
 https://towardsdatascience.com/interactive-controls-for-jupyter-notebooks-f5c94829aee6
 
-
+conda install --revision N(N is revision number) # If you mess up your environment and have to roll back.
 Below are the steps to create new environment in Anaconda
 ### Basics of Anaconda environment management ###
 conda --version
