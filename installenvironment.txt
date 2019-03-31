@@ -1,20 +1,3 @@
-1. Install of Anaconda 5.2.0 version by Admin
-2. Run Anaconda prompt by Admin(When you run you can see the "(base)")
-3. conda update -n base conda : this is for update
-4. conda update --all : this is for update
-5. pip install tensorflow
-6. pip install keras
-7. pip install ipywidgets
-8. pip install --upgrade autopep8
-9. pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install 
-10. jupyter nbextension enable --py widgetsnbextension
-10. conda install -c plotly plotly
-11. pip install cufflinks
-12. pip install pyarrow
-
-Try out interactive controls in Jupyter:
-https://towardsdatascience.com/interactive-controls-for-jupyter-notebooks-f5c94829aee6
-
 conda install --revision N(N is revision number) # If you mess up your environment and have to roll back.
 Below are the steps to create new environment in Anaconda
 ### Basics of Anaconda environment management ###
@@ -30,6 +13,35 @@ conda info --envs
 # Removing an environment
 conda remove --name myNewEnv --all
 
+
+Install of Anaconda 5.2.0 version by Admin
+Run Anaconda prompt by Admin(When you run you can see the "(base)")
+conda update -n base conda : this is for update
+conda update --all : this is for update
+conda install matplotlib
+conda install anaconda-client
+conda install numpy
+conda install -c plotly plotly
+pip install -U scikit-learn
+pip install scipy
+pip install tensorflow==1.12.0
+pip install tensorflow-gpu==1.12.0
+pip install keras
+pip install ipywidgets
+pip install --upgrade autopep8
+pip install jupyter notebook
+pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install 
+jupyter nbextension enable --py widgetsnbextension
+pip install cufflinks
+pip install pyarrow
+pip install Cython
+pip install image
+pip install tqdm
+pip install seaborn
+
+
+
+
 ### Code for Computer Vision Environment ###
 conda create --name myWindowsCV python=3.5
 activate myWindowsCV
@@ -42,10 +54,9 @@ python ##creates a python shell within your CV environment
 >>>import cv2
 >>>cv2.__version__
 '3.1.0'
+
 https://chrisconlan.com/installing-python-opencv-3-windows/
-
-## additional things I had to do on the fly##
-pip install Cython
-pip install image
-
 ### From Anaconda prompt type “jupyter notebook” 
+Try out interactive controls in Jupyter:
+https://towardsdatascience.com/interactive-controls-for-jupyter-notebooks-f5c94829aee6
+
